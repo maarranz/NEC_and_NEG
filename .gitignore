@@ -1,0 +1,38 @@
+# --------------------
+# Julia
+# --------------------
+*.jl~                # temporary backup files from editors
+*.toml               # optional: can ignore Project.toml/Manifest.toml if generated
+Manifest.toml
+*.jl.cov             # coverage files
+*.jld                # large saved data files
+
+# Package artifacts
+/.julia/artifacts
+/.julia/packages
+
+# --------------------
+# Jupyter / Notebooks
+# --------------------
+.ipynb_checkpoints/  # Jupyter autosave checkpoints
+*.nbconvert.ipynb    # converted notebook outputs
+*.pyc                # if you export to Python
+__pycache__/         # Python cache if using Python kernels
+
+# --------------------
+# LaTeX / Docs
+# --------------------
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# --------------------
+# OS / editor temp files
+# --------------------
+.DS_Store
+*.swp
+*~
